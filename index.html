@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Data Types</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="banner">
+            <h1>JavaScript Ma'lumotlar Turlari</h1>
+            <p>Asosiy turlar va ularning ishlash usuli</p>
+        </div>
+
+        <div class="wrapper">
+            <div class="box">
+                <h2 class="title">Primitive Types</h2>
+                
+                <div class="item">
+                    <div class="name">Number</div>
+                    <div class="desc">Sonlar uchun</div>
+                    <div class="code">let age = 25;<br>let price = 99.99;</div>
+                </div>
+
+                <div class="item">
+                    <div class="name">String</div>
+                    <div class="desc">Matn uchun</div>
+                    <div class="code">let name = "Ahmad";<br>let msg = 'Salom';</div>
+                </div>
+
+                <div class="item">
+                    <div class="name">Boolean</div>
+                    <div class="desc">true/false qiymatlar</div>
+                    <div class="code">let isActive = true;<br>let isDone = false;</div>
+                </div>
+
+                <div class="item">
+                    <div class="name">Undefined</div>
+                    <div class="desc">Qiymat berilmagan</div>
+                    <div class="code">let x;<br>console.log(x); // undefined</div>
+                </div>
+
+                <div class="item">
+                    <div class="name">Null</div>
+                    <div class="desc">Bo'sh qiymat</div>
+                    <div class="code">let data = null;</div>
+                </div>
+
+                <div class="item">
+                    <div class="name">Symbol</div>
+                    <div class="desc">Noyob identifikator</div>
+                    <div class="code">let id = Symbol('id');</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <h2 class="title">Object Types</h2>
+                
+                <div class="item">
+                    <div class="name">Object</div>
+                    <div class="desc">Kalit-qiymat juftliklari</div>
+                    <div class="code">let user = {<br>&nbsp;&nbsp;name: "Ali",<br>&nbsp;&nbsp;age: 20<br>};</div>
+                </div>
+
+                <div class="item">
+                    <div class="name">Array</div>
+                    <div class="desc">Ro'yxat ko'rinishida</div>
+                    <div class="code">let nums = [1, 2, 3];<br>let names = ["A", "B"];</div>
+                </div>
+
+                <div class="item">
+                    <div class="name">Function</div>
+                    <div class="desc">Bajariladigan kod</div>
+                    <div class="code">function hello() {<br>&nbsp;&nbsp;return "Salom";<br>}</div>
+                </div>
+
+                <div class="item">
+                    <div class="name">Date</div>
+                    <div class="desc">Sana va vaqt</div>
+                    <div class="code">let now = new Date();</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero">
+            <h3>Turni Tekshiring</h3>
+            <input type="text" class="input" placeholder="Qiymat kiriting" id="testInput">
+            <div class="result" id="testResult">Qiymat yozing va typeof ni ko'ring...</div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>📚 Manbalar: WebForMySelf, MDN Web Docs, JavaScript.info</p>
+        <span>&copy; JustJS__Dioo</span>
+    </footer>
+
+   <script src="./js/script.js"></script>
+</body>
+</html>
